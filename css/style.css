@@ -121,3 +121,16 @@ a {
   font-size: 24px;
   font-weight: 200;
 }
+
+#special-offer {
+  background: linear-gradient(to bottom, black, #18181b);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.our-span {
+  border-bottom: 3px solid #e19a2789;
+}
