@@ -62,7 +62,7 @@ a {
   background-color: white;
   display: flex;
   align-items: center;
-
+  position: relative;
   gap: 20px;
   padding: 11px;
 
@@ -82,6 +82,33 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 40px;
+}
+
+.rectangular-1 {
+  background-color: #e19a2789;
+  width: 518px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.rectangular-2 {
+  background-color: #e19a2789;
+  width: 48px;
+  height: 326px;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+.rectangular-3 {
+  background-color: #e19a2789;
+  width: 418px;
+  height: 48px;
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
 }
 
 .about-story__text h1 {
