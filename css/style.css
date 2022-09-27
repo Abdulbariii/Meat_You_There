@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 #home_page {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background: linear-gradient(
       to bottom,
@@ -47,4 +48,96 @@
 a {
   text-decoration: none;
   color: white;
+font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
+}
+
+#about {
+  background: linear-gradient(to bottom, black, #18181b);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-story {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+  padding: 11px;
+
+  width: 1030px;
+  height: 386px;
+}
+
+.about-story__img {
+  width: 281px;
+  height: 356px;
+  object-fit: cover;
+}
+
+.about-story__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.rectangular-1 {
+  background-color: #e19a2789;
+  width: 518px;
+  height: 48px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.rectangular-2 {
+  background-color: #e19a2789;
+  width: 48px;
+  height: 326px;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+.rectangular-3 {
+  background-color: #e19a2789;
+  width: 418px;
+  height: 48px;
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
+}
+
+.about-story__text h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
+}
+
+.about-story__text p {
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
+}
+
+#special-offer {
+  background: linear-gradient(to bottom, black, #18181b);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.our-span {
+  border-bottom: 3px solid #e19a2789;
 }
