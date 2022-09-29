@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: content-box;
   font-family: Arial, Helvetica, sans-serif;
+  font-family: "Dongle", sans-serif;
 }
 
 #home_page {
@@ -20,9 +21,9 @@
   background-position: 70%;
 }
 
-#our-menu{
-margin-top:200px;
-margin-bottom: 200px;
+#our-menu {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .navbar {
@@ -50,6 +51,16 @@ margin-bottom: 200px;
   color: white;
 }
 
+.main-heading {
+  font-size: 110px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e19927;
+  font-weight: 600;
+}
 a {
   text-decoration: none;
   color: white;
@@ -173,7 +184,6 @@ a {
   border-radius: 5px;
 }
 
-
 .special-offers_text {
   display: flex;
   flex-direction: column;
@@ -207,7 +217,7 @@ a {
   font-family: "Almarai", sans-serif;
   font-family: "Dongle", sans-serif;
   font-size: 3.5rem;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .div-container {
