@@ -129,13 +129,48 @@ a {
   font-family: "Dongle", sans-serif;
 }
 
-#special-offer {
-  background: linear-gradient(to bottom, black, #18181b);
-  height: 100vh;
-  width: 100%;
+#special-offers {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  height: 50vh;
+  gap: 20px;
+}
+
+.special-offers-cards {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 400px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.special-offers__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.special-offers_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.special-offers_text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.special-offers_text p {
+  font-size: 24px;
+  font-weight: 200;
 }
 
 .our-span {
