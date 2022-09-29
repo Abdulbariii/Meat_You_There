@@ -20,6 +20,11 @@
   background-position: 70%;
 }
 
+#our-menu{
+margin-top:200px;
+margin-bottom: 200px;
+}
+
 .navbar {
   background-color: rgba(255, 255, 255, 0.122);
   padding: 30px 80px;
@@ -168,6 +173,7 @@ a {
   border-radius: 5px;
 }
 
+
 .special-offers_text {
   display: flex;
   flex-direction: column;
@@ -201,6 +207,7 @@ a {
   font-family: "Almarai", sans-serif;
   font-family: "Dongle", sans-serif;
   font-size: 3.5rem;
+  margin-bottom:20px;
 }
 
 .div-container {

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap');
+body{
+background-color:black;
+}
+
+#footer{
+margin-top: 100px;
+margin-bottom:100px;
+}
+.footer{
+
+margin-left: 370px;
+
+}
+.footer-container{
+display:flex;
+
+}
+
+.footer-part1{
+width:300px;
+height:90px;
+
+}
+
+.footer-part2{
+display: flex;
+justify-content:center;
+align-items: center;
+background-color:#334155;
+width:300px;
+height:90px;
+}
+
+.footer-image{
+width:300px;
+height:90px;
+object-fit: cover;
+background-repeat: no-repeat;
+
+
+}
+
+
+.footer-button{
+  background-color:white;
+ background-color: rgba(0,0,0,.3);
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
+
+  border-width:thin;
+  border-radius: 10px;
+  border-color: white;
+    color: white;
+   line-height:10px;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    position: absolute;
+    z-index: 50;
+    margin-top:28px;
+    margin-left:50px;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+
+}
+
+.yellow-hover{
+  width:300px;
+  height:90px;
+  background-color: #E19927;
+  opacity:45%;
+  position: absolute;
+  z-index: 30;
+}
+
+.fa-square-facebook{
+color:#cbd5e1;
+font-size: 40px;
+margin-right: 20px;
+}
+
+.fa-linkedin{
+  color:#cbd5e1;
+  font-size: 40px;
+}
+
+.fa-instagram{
+  color:#cbd5e1;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.footer-p{
+  color:#cbd5e1;
+  font-size: 14px;
+
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
+}
