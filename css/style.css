@@ -244,26 +244,152 @@ a {
   position: absolute;
   width: 500px;
 }
+.cheif-card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100vh;
+  position: relative;
+}
 
+.cheif-card-1 {
+  position: absolute;
+  top: 300px;
+}
+
+.cheif-card {
+  position: relative;
+}
 .cheif-img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 500px;
   padding: 10px;
+  object-fit: cover;
 }
 
-#Our Cheif {
+.description-cheif {
+  background-color: white;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.cheif-heading {
+  font-size: 50px;
+}
+
+.cheif-p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#footer {
+  height: 30vh;
+  position: absolute;
+  bottom: px;
+}
+.footer {
+  margin-left: 370px;
+}
+.footer-container {
+  display: flex;
+}
+
+.footer-part1 {
+  width: 300px;
+  height: 90px;
+}
+
+.footer-part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #334155;
+  width: 300px;
+  height: 90px;
+}
+
+.footer-image {
+  width: 300px;
+  height: 90px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-button {
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
+
+  border-width: thin;
+  border-radius: 10px;
+  border-color: white;
+  color: white;
+  line-height: 10px;
+  padding: 12px 50px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  z-index: 50;
+  margin-top: 28px;
+  margin-left: 50px;
+  filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
-#cheif ali {
-  text-align: center;
+.yellow-hover {
+  width: 300px;
+  height: 90px;
+  background-color: #e19927;
+  opacity: 45%;
+  position: absolute;
+  z-index: 30;
 }
 
-figcaption {
+.fa-square-facebook {
+  color: #cbd5e1;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.fa-linkedin {
+  color: #cbd5e1;
+  font-size: 40px;
+}
+
+.fa-instagram {
+  color: #cbd5e1;
+  font-size: 40px;
   margin-left: 20px;
-  color: red;
 }
 
-h3 {
-  color: red;
+.footer-p {
+  color: #cbd5e1;
+  font-size: 14px;
+
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
+}
+
+#footer-id {
+  height: 30vh;
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.logo {
+  width: 40px;
+  width: 40px;
+  cursor: pointer;
 }
