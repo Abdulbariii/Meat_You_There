@@ -1,85 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap');
-body{
-background-color: black;
-}
 
-.menu-header{
-margin-top: 100px;
-}
 
-.menu-header p{
-color: white;
-text-align: center;
-font-family: 'Almarai', sans-serif;
-font-family: 'Dongle', sans-serif;
-font-size: 3.5rem;
 
-}
-
-  .div-container{
+#special-offers {
+  background-color: black;
   display: flex;
-  justify-content: space-between;
-  margin-right:100px;
-  margin-left: 100px;
-  }
-
-
-
-.box1{
-width:70px;
-height: 70px;
-position: absolute;
-background-color: #E19927;
-opacity:50%;
-z-index: 50px;
-margin-top:330px;
-margin-left:-20px;
-}
-.box2{
-width:70px;
-height: 70px;
-position: absolute;
-background-color: #E19927;
-opacity:50%;
-
-margin-top:-20px;
-margin-left:455px;
-}
-.box3{
-  width:350px;
-  height: 40px;
-position: absolute;
-  background-color: #E19927;
-  opacity:50%;
-  z-index: auto;
-  margin-top:200px;
-  margin-left:200px;
-  }
-.menu-picture img{
-position: absolute;
-width: 500px;
-
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
 }
 
-img{
-  width: 200px;
+.special-offers-cards {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.special-offers__img {
+  width: 100%;
   height: 200px;
-  padding: 10px;
+  object-fit: cover;
 }
 
-#Our Cheif {
-    text-align: center;
+.special-offers_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
 }
 
-#cheif ali{
-  text-align: center;
+.special-offers_text h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-figcaption{
-  margin-left: 20px;
-  color: red;
+.special-offers_text p {
+  font-size: 24px;
+  font-weight: 200;
 }
 
-h3{
-  color:red;
-}
+
+
+
