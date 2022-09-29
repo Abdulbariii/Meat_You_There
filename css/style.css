@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -47,6 +48,8 @@
 a {
   text-decoration: none;
   color: white;
+font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
 }
 
 #about {
@@ -115,11 +118,15 @@ a {
   font-size: 64px;
   text-transform: uppercase;
   font-weight: 300;
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
 }
 
 .about-story__text p {
   font-size: 24px;
   font-weight: 200;
+  font-family: 'Almarai', sans-serif;
+font-family: 'Dongle', sans-serif;
 }
 
 #special-offer {
