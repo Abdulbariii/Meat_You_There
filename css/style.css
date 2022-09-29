@@ -60,3 +60,26 @@ position: absolute;
 width: 500px;
 
 }
+
+img{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+#Our Cheif {
+    text-align: center;
+}
+
+#cheif ali{
+  text-align: center;
+}
+
+figcaption{
+  margin-left: 20px;
+  color: red;
+}
+
+h3{
+  color:red;
+}
