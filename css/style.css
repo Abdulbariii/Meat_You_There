@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&family=Dongle&display=swap");
+html,
+body {
+  background: black url("https://codepen.io/images/classy_fabric.png");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -48,8 +55,8 @@
 a {
   text-decoration: none;
   color: white;
-font-family: 'Almarai', sans-serif;
-font-family: 'Dongle', sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
 }
 
 #about {
@@ -118,15 +125,15 @@ font-family: 'Dongle', sans-serif;
   font-size: 64px;
   text-transform: uppercase;
   font-weight: 300;
-  font-family: 'Almarai', sans-serif;
-font-family: 'Dongle', sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
 }
 
 .about-story__text p {
   font-size: 24px;
   font-weight: 200;
-  font-family: 'Almarai', sans-serif;
-font-family: 'Dongle', sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
 }
 
 #special-offer {
@@ -140,4 +147,273 @@ font-family: 'Dongle', sans-serif;
 
 .our-span {
   border-bottom: 3px solid #e19a2789;
+}
+
+.slides {
+  padding: 0;
+  width: 550px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide-container {
+  display: block;
+}
+
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 550px;
+  height: 370px;
+  display: block;
+  position: absolute;
+
+  transform: scale(0);
+
+  transition: all 0.7s ease-in-out;
+}
+
+.slide div {
+  width: 100%;
+  height: 100%;
+}
+
+.nav label {
+  width: 200px;
+  height: 100%;
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+
+  transition: opacity 0.2s;
+
+  color: #fff;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label {
+  opacity: 0.5;
+}
+
+.nav label:hover {
+  opacity: 1;
+}
+
+.nav .next {
+  right: 0;
+}
+
+input:checked + .slide-container .slide {
+  opacity: 1;
+
+  transform: scale(1);
+
+  transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label {
+  display: block;
+}
+
+.nav-dots {
+  width: 100%;
+  bottom: 9px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.nav-dots .nav-dot {
+  top: -5px;
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+.nav-dots .nav-dot:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+  background: #e19927;
+}
+
+.menu-bages {
+  background-color: black;
+  border-style: solid;
+  border-color: #e19927;
+  border-width: 2px;
+}
+.bages-header {
+  display: flex;
+  justify-content: center;
+}
+.bages-header p {
+  color: white;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
+  font-size: 2.8rem;
+  line-height: 1px;
+}
+.line1 {
+  border-top: 3px solid #e19927;
+  border-radius: 2px;
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 43px;
+}
+
+.line2 {
+  border-top: 3px solid #e19927;
+  border-radius: 2px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 43px;
+}
+
+.item1 {
+  margin-top: -290px;
+  position: absolute;
+}
+.item-number1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -350px;
+  position: absolute;
+}
+.item-line {
+  border-top: 3px solid #e19927;
+  border-radius: 2px;
+  width: 450px;
+  margin-left: 30px;
+}
+
+.item {
+  color: #e19927;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
+  font-size: 2.8rem;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.price1 {
+  display: flex;
+}
+.price-font {
+  color: white;
+  text-align: start;
+  font-family: "Almarai", sans-serif;
+  font-family: "Dongle", sans-serif;
+  font-size: 2rem;
+  line-height: 1px;
+  padding-left: 30px;
+}
+.main-price-padding1 {
+  padding-left: 42px;
+}
+.main-price-padding2 {
+  padding-left: 120px;
+}
+.main-price-padding3 {
+  padding-left: 135px;
+}
+.item2 {
+  margin-top: -270px;
+  position: absolute;
+}
+.item-number2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -350px;
+  position: absolute;
+}
+.price2 {
+  display: flex;
+  padding-top: 30px;
+}
+
+.item3 {
+  margin-top: -150px;
+  position: absolute;
+}
+.item-number3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -350px;
+  position: absolute;
+}
+.price3 {
+  display: flex;
+  padding-top: 30px;
+}
+
+.item4 {
+  margin-top: -110px;
+  position: absolute;
+}
+.item-number4 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -350px;
+  position: absolute;
+}
+.price4 {
+  display: flex;
+  padding-top: 30px;
+}
+
+.Appetizers-price-padding1 {
+  padding-left: 125px;
+}
+.Appetizers-price-padding2 {
+  padding-left: 70px;
+}
+.Appetizers-price-padding3 {
+  padding-left: 110px;
+}
+
+.pasta-price-padding1 {
+  padding-left: 40px;
+}
+.pasta-price-padding2 {
+  padding-left: 80px;
+}
+.pasta-price-padding3 {
+  padding-left: 40px;
 }
